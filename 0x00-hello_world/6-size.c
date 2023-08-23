@@ -13,8 +13,9 @@
 int  main(void)
 {
 	char *arr[] = {"char", "int", "long int", "long long int", "float"};
+	int i;
 
-	for (int i = 0; i < 5; i++)
+	for (i = 0; i < 5; i++)
 	{	
 		printf("Size of a %s: %zu byts(s)\n", arr[i], sizeof(arr[i]));	
 	}
