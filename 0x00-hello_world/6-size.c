@@ -17,7 +17,7 @@ int  main(void)
 
 	for (i = 0; i < 5; i++)
 	{	
-		printf("Size of a %s: %zu byts(s)\n", *arr[i], sizeof(*arr[i]);	
+		printf("Size of a %s: %zu byts(s)\n", arr[i], sizeof(*arr[i]));	
 	}
 
 	return (0);
