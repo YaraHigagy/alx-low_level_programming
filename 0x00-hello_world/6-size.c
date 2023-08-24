@@ -12,15 +12,6 @@
 
 int  main(void)
 {
-/**
- *char *arr[] = {"char", "int", "long int", "long long int", "float"};
- *int i;
- *
- *for (i = 0; i < 5; i++)
- *{
- *   	printf("Size of a $s: %zu byte(s)\n", arr[i], sizeof(arr[i]));
- *}
- */
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
