@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the alphabet in lowercase, and then in uppercasel,
- * 	followed by a new line.
+ *	followed by a new line.
  *
  * Return: Always (0).
  */
