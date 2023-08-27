@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  * main - entry point
  *
- * Description: print text,_putchar.
+ * Description: print text, _putchar.
  *
  * Retur: On success 0.
  */
