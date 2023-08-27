@@ -5,7 +5,7 @@
  * _islower -  returns 1 if c is lowercasem 0 otherwise.
  * @c: integer to be tested.
  *
- * ReturnL 1 or 0.
+ * Return: 1 or 0.
  */
 
 int _islower(int c)
