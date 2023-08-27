@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower -  checks for lowercase character.
+ * _islower -  returns 1 if c is lowercasem 0 otherwise.
  * @c: integer to be tested.
  *
  * ReturnL 1 or 0.
