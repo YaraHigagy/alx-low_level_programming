@@ -1,10 +1,10 @@
+
 #include <stdio.h>
 #include "main.h"
 
 /**
  * sumMul - computes the sum of numbers that are multiples of specific number.
- * main  - computes the absolute value of an integer.
- * @stanr: the start number.
+ * @start: the start number.
  * @end: the end number.
  * @step: the number of steps.
  *
@@ -23,10 +23,17 @@ int sumMul(int start, int end, int step)
 	return (sum);
 }
 
+/**
+ * main - prints the sum of all numbers under 1024
+ * that are divisible by 3 ar 5 but not 15.
+ *
+ * Return: 0.
+ */
+
 int main(void)
 {
-	
-/*	int i, sum3 = 0, sum5 = 0, sum15 = 0, sum_total;
+
+	/*int i, sum3 = 0, sum5 = 0, sum15 = 0, sum_total;
 
 	for (i = 0; i < 1023; i++)
 	{
@@ -44,8 +51,7 @@ int main(void)
 		}
 	}
 	sum_total = sum3 + sum5 - sum15;
-	printf("%d\n", sum_total);
-*/	
+	printf("%d\n", sum_total);*/
 
 	int sum3, sum5, sum15, sum_total;
 
