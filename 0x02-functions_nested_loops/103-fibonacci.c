@@ -11,21 +11,23 @@
 
 int main(void)
 {
-	int i;
+	int i = 2;
 	long  f_1 = 1, f_2 = 2, f, sum;
 
-	for (i = 2;; i++)
+	while (i)
 	{
 		f = f_1 + f_2;
 
-		if ( f == 4000000)
+		if (f == 4000000)
 			break;
 
-		if ( f % 2 == 0)
+		if (f % 2 == 0)
 			sum += f;
 
 		f_1 = f_2;
 		f_2 = f;
+
+		i++;
 	}
 
 	printf("%lu\n", sum);
