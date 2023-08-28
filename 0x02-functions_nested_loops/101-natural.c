@@ -33,7 +33,8 @@ int sumMul(int start, int end, int step)
 int main(void)
 {
 
-	/* int i, sum3 = 0, sum5 = 0, sum15 = 0, sum_total;
+	/*
+	int i, sum3 = 0, sum5 = 0, sum15 = 0, sum_total;
 
 	for (i = 0; i < 1023; i++)
 	{
@@ -51,7 +52,8 @@ int main(void)
 		}
 	}
 	sum_total = sum3 + sum5 - sum15;
-	printf("%d\n", sum_total); */
+	printf("%d\n", sum_total);
+	*/
 
 	int sum3, sum5, sum15, sum_total;
 
