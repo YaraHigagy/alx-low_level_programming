@@ -16,7 +16,7 @@ int main(void)
 
 	printf("1, 2");
 
-	for (i = 4; i <= 51; i++)
+	for (i = 4; i <= 99; i++)
 	{
 		f = f_1 + f_2;
 
