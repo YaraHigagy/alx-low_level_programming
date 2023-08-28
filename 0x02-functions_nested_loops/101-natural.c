@@ -2,28 +2,59 @@
 #include "main.h"
 
 /**
+ * sumMul - computes the sum of numbers that are multiples of specific number.
  * main  - computes the absolute value of an integer.
+ * @stanr: the start number.
+ * @end: the end number.
+ * @step: the number of steps.
  *
- * Return: 0.
+ * Return: sum.
  */
+
+int sumMul(int start, int end, int step)
+{
+	int i, sum = 0;
+
+	for (i = start; i < end; i += step)
+	{
+		sum += i;
+	}
+
+	return (sum);
+}
 
 int main(void)
 {
-	int i, sum3, sum5, sum_total;
+	
+/*	int i, sum3 = 0, sum5 = 0, sum15 = 0, sum_total;
 
-	for (i = 3; i < 1023; i++)
+	for (i = 0; i < 1023; i++)
 	{
-		if (i % 3 == 0)
+		if (i >= 3 && i % 3 == 0)
 		{
-			sum3 += sum3;
+			sum3 += i;
 		}
-		if (i >= 5 && i % 3 == 0)
+		if (i >= 5 && i % 5 == 0)
 		{
-			sum5 += sum5;
+			sum5 += i;
+		}
+		if (i >=15 && i % 15 == 0)
+		{
+			sum15 += i;
 		}
 	}
-	sum_total = sum3 + sum5;
+	sum_total = sum3 + sum5 - sum15;
+	printf("%d\n", sum_total);
+*/	
+
+	int sum3, sum5, sum15, sum_total;
+
+	sum3 = sumMul(3, 1024, 3);
+	sum5 = sumMul(5, 1024, 5);
+	sum15 = sumMul(15, 1024, 15);
+	sum_total = sum3 + sum5 - sum15;
+
 	printf("%d\n", sum_total);
 
-	return (sum_total);
+	return (0);
 }
