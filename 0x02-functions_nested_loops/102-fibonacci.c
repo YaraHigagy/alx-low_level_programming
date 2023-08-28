@@ -11,7 +11,8 @@
 
 int main(void)
 {
-	int i, f_1 = 1, f_2 = 2, f;
+	int i;
+	long  f_1 = 1, f_2 = 2, f;
 
 	printf("1, 2");
 
@@ -19,7 +20,7 @@ int main(void)
 	{
 		f = f_1 + f_2;
 
-		printf(", %d", f);
+		printf(", %lu", f);
 
 		f_1 = f_2;
 		f_2 = f;
